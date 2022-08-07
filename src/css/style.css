@@ -1,0 +1,535 @@
+.clear{
+    clear: left;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: #344051;
+}
+.logo{
+    color: #fff;
+    line-height: 60px;
+    font-size: 16px;
+    float: left;
+    padding-left: 220px;
+    
+}
+.menu{
+    padding-left: 20%;
+    float: left;
+}
+
+.menu li{
+   float: left;  
+   line-height: 60px;
+   color: #fff;
+   margin-right: 40px; 
+   font-size: 12px;
+   text-transform: uppercase;
+}
+.main{
+   width: 100%;
+   height: calc(100% - 60px);
+    background: url("../img/boy.png") 90% 100%/auto 85% no-repeat, url("../img/fon.png") center/cover no-repeat;
+    
+}
+.title{
+    float: left;
+ color: #2c384a;
+    margin:220px 0px 0px 200px;
+text-align: center;
+}
+
+.title h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.title h4{
+    margin-top: 20px;
+    font-size: 22px;
+    color: #b3b6bf;
+}
+
+.title input{
+    text-align: center;
+    color: #6d7682;
+    height: 40px;
+    border: 2px solid #6d7682;
+    border-radius: 5px;
+    background: none;
+    font-size: 12px;
+    padding: 11px 14px 11px 15px;
+    margin: 40px 13px;
+}
+
+.about_me{
+    width: 100%;
+    margin-top: 103px;
+    text-align: center;
+background:  url("../img/line.png") 50% 30px no-repeat ,url("../img/boy1.png") 50% 74px no-repeat,url("../img/fon1.png") center/cover no-repeat ;
+  
+
+
+}
+.about_me h2{
+    font-size: 20px;
+    text-align: center;
+    color: #263244;
+    text-transform: uppercase;
+    font-weight: 700;
+   
+}
+.about_me ul{
+    margin: 280px 300px 0px 300px;
+
+    text-align: center;
+    border-left: 579px;
+    line-height: 15px;
+
+}
+.about_me li{
+    margin-top: 40px;    
+}
+
+.about_me input{
+    text-align: center;
+    margin-top: 35px;
+    border: 2px solid #6f707e;
+    padding: 7px 9px 7px 36px;
+    border-radius: 5px;
+    background: none;
+    background: url("../img/Ukonka.png") 10% no-repeat;
+    color:#6f707e;
+    font-weight: 600;
+    font-size: 16;
+
+}
+
+.MySkills{
+    margin-top: 98px;
+    width: 100%;
+    height: 523px;
+    text-align: center;
+    background:url(../img/line1.png) 50% 130px  no-repeat, url(../img/fon2.png) center/cover no-repeat  ;
+}
+.MySkills h2{
+    padding-top: 101px;
+    font-size: 20px;
+    text-align: center;
+    color: #263244;
+    text-transform: uppercase;
+    font-weight: 700; 
+}
+.Web_design{
+     padding-top:123px;
+    width: 25%;
+    background: url("../img/leptop.png" ) center/55px auto no-repeat;
+    float: left;   
+
+}
+.Web_design h3{
+       padding-top: 80px;
+     font-size: 20px;
+    color: #cf7600;
+    font-weight: 700; 
+}
+.Web_design p{
+    padding-top: 18px;
+    padding-left: 25%;
+    width: 75%;
+}
+
+.Web_development{
+   padding-top:123px;
+     width: 25%;
+    background: url("../img/3nak.png" ) center/50px auto no-repeat;
+    float: left;   
+}
+.Web_development h3{
+    padding-top: 80px;
+     font-size: 20px;
+    color: #cf7600;
+    font-weight: 700; 
+}
+.Web_development p{
+    padding-top: 18px;
+    padding-left: 25%;
+    width: 75%;
+}
+
+.Optimization{
+     padding-top:123px;
+     width: 25%;
+    background: url("../img/pakema.png" ) center/50px auto no-repeat;
+    float: left;   
+}
+.Optimization h3{
+    padding-top: 80px;
+     font-size: 20px;
+    color: #cf7600;
+    font-weight: 700; 
+}
+.Optimization p{
+   padding-top: 18px;
+    padding-left: 25%;
+    width: 75%;
+}
+
+.Marketing{
+     width: 25%;
+     padding-top:123px;
+    background: url("../img/rpammo.png" ) center/50px auto no-repeat;
+    float: left;   
+}
+.Marketing h3{
+    padding-top: 80px;
+     font-size: 20px;
+    color: #cf7600;
+    font-weight: 700; 
+}
+.Marketing p{
+     padding-top: 18px;
+    padding-left: 25%;
+    width: 75%;
+}
+
+.Сases{
+    height: 1000px;
+    width: 100%;
+}
+.Сases h2{
+        padding-top: 101px;
+    font-size: 20px;
+    text-align: center;
+    color: #263244;
+    text-transform: uppercase;
+    font-weight: 700; 
+    
+}
+
+.Сases hr{
+    height: 3px;
+   border:none;
+    background-color: #d17700;
+    width: 60px;
+    margin: 20px auto; 
+}
+
+.Сases >p{
+    margin-top: 60px;
+    float: none;
+    text-align: center;
+}
+
+.Сases img{
+   float: left;
+    width: 1100px;
+    margin-right: 100%;
+    margin-left: 0;   
+    margin-top: 39px;
+    margin-bottom: 0px;
+
+    }
+
+.first_block h3{
+    padding-top: 7px;
+    font-weight: 700;
+    font-size: 20px;   
+    padding-bottom: 7px;
+}
+.first_block {
+    margin-top: -90px;
+    margin-left: 20%;
+    margin-right: 70px;
+    display: inline;
+    float: left;
+}
+
+.Knopka{
+    color: aliceblue;
+    font-size: 20px;
+    border: 2px solid #63b5ae;
+    background: #63b5ae;
+    padding: 11px 20px;
+    font-weight: 700;
+    width: 160px;
+    border-radius: 5px;
+    
+   
+    margin-top: 15px;
+    margin-left: auto;
+
+}
+
+.second_block  {
+        margin-top: -90px;
+  display: inline;
+    float: left;
+    width: 45%;
+}
+
+
+.second_block h3{
+    font-weight: 700;
+    font-size: 20px;   
+    padding-bottom: 7px;
+  
+}
+.second_block p{
+    line-height: 17px;
+}
+
+
+
+.Cost_calculation{
+    height: 900px;
+    width: 100%;
+}
+.Cost_calculation h2{
+    padding-top: 145px;
+    font-size: 20px;
+    text-align: center;
+    color: #263244;
+    text-transform: uppercase;
+    font-weight: 700; 
+}
+.Cost_calculation h3{
+    width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+}
+.Tipe{
+    margin-top: 65px;
+    width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.MySelect {
+    display: block;
+    width: 890px;
+    height: 60px;
+    background: #eeeeee;
+    margin-top: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 37px;
+    padding-left: 24px;
+    color: #9a9a9a;
+    
+}
+
+.Cpoku h4{
+    margin-top: 36px;
+       width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+    word-spacing: 838px;
+    border-top: 2px solid #d1d1d1;
+    padding-top: 15px;
+    font-weight: 700;
+   
+}
+
+
+
+.CmouMocmb h4{
+    margin-top: 15px;
+           width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+    word-spacing: 810.5px;
+    font-weight: 700;
+}
+
+.Statistic{
+  height: 499px;
+    width: 100%;
+    background: url(../img/fon3.png) center/cover no-repeat;
+}
+.statistic{
+  width: 1000px;  
+    margin: 0 auto;
+}
+.Statistic h2{
+    padding-top: 100px;
+    font-size: 20px;
+    text-align: center;
+    color: #263244;
+    text-transform: uppercase;
+    font-weight: 700;   
+}
+.Statistic hr{
+    margin-top: 15px;
+    height: 3px;
+   border:none;
+    background-color: #d17700;
+    width: 60px;
+    margin: 20px auto; 
+}
+
+.skills_item{
+    
+    margin-top: 94px;
+    width:  250px;
+    text-align: center;
+    float: left;
+    padding-bottom: 32px;
+
+}
+.skills_item P{
+  line-height: 40px;
+   margin-top: 15px;
+}
+.Number{
+    font-weight: 1000;
+    font-size: 40px;
+}
+
+.reviews{
+    margin-top: 100px;
+    text-align: center;
+   
+}
+
+.reviews h2{
+     font-size: 20px;
+    text-align: center;
+    color: #263244;
+    text-transform: uppercase;
+    font-weight: 700;   
+}   
+
+.reviews hr{
+    margin-top: 15px;
+    height: 3px;
+   border:none;
+    background-color: #d17700;
+    width: 60px;
+    margin: 20px auto; 
+}
+
+.reviews img{
+    margin-top: 55px;
+    margin-bottom: 48px;
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reviews p{
+    width:50%;
+    margin-left: 25%;
+    line-height: 20px;
+}
+.who{
+padding-top: 27px;  
+    clear: left;
+}
+
+
+
+.my_contacts{
+    height: 700px;
+    width: 100%;
+    margin-top: 135px;
+    background: url(../img/fon4.png) center/cover no-repeat;    
+ 
+}
+.my_contacts hr{
+    margin-top: 15px;
+    height: 3px;
+   border:none;
+    background-color: #d17700;
+    width: 60px;
+    margin: 20px auto; 
+    margin-bottom: 45px;
+}
+
+ .my_contacts h2{
+    padding-top: 101px; 
+    font-size: 20px;
+    text-align: center;
+    color:aliceblue;
+     text-transform: uppercase;
+    font-weight: 700;   
+}
+
+.my_contacts >p{
+    text-align: center;
+    color:aliceblue;
+}
+.contacts{
+  width: 600px;  
+    margin: 0 auto;
+    
+}
+
+.cont{
+     margin-top: 36px;
+    width:  200px;
+    text-align: center;
+    float: left;
+     color:aliceblue;
+
+}
+
+.cont img{
+    padding-bottom: 10px;
+}
+
+.letter {
+ padding-top: 30px;
+    text-align: center;
+}
+
+.line{
+    margin-top: 30px;
+    word-spacing: 32px;
+    width: 700px;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Name{
+    height: 35px;
+    width:350px;
+}
+
+.Mail{
+    height: 35px;
+    width:350px; 
+}
+
+.box{
+    margin-top: 15px;
+     height: 95px;
+    width:735px; 
+     margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 18px;
+}
+
+.send{
+    font-size: 18px;
+    color: #f9faff;
+    display: block;
+    height: 46px;
+    width: 125px;
+    background: none;
+    border: 2px solid #f9faff;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nucbMo{
+    padding-bottom: 30px;
+}
+.map img{
+    display: block;
+    height: 250px;
+    width: 100%;
+}
