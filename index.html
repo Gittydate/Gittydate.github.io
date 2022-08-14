@@ -8,42 +8,57 @@
     <meta name="keywords" content="Сайт визитка разработчика">
     <meta name="robots" content="all">
     <title>Ярослав Терентьев - веб-разработчик</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     </head>
 
 <body>
+ <div class="loading">
+   <h2>Loading...</h2>
+ 
+    </div>
   <header>
       <nav>
-          <div class="logo">Ярослав Терентьев</div> 
+          <div class="logo">Андрей Браун</div> 
           <div class="menu"> 
           <ul>
               <li><a href="#">Обо мне</a></li>
-              <li><a href="#">Услуги</a></li> 
-              <li><a href="#">Кейсы</a></li>
-              <li><a href="#">Прайс</a></li>
-              <li><a href="#">Отзывы</a></li>
-              <li><a href="#">Контакты</a></li>
+              <li><a href="#">Услуги </a></li> 
+              <li><a href="#">Кейсы </a></li>
+              <li><a href="#">Прайс </a></li>
+              <li><a href="#">Отзывы </a></li>
+              <li><a href="#">Контакты </a></li>
              
           </ul>
           </div>
       </nav>
   </header>
-  
+  <main>
   <div class="main">
-      <h1>Привет <br>Я Ярослав Терентьев</h1>
+      <div class="title"> 
+      <h1>Привет <br>Я Андрей Браун</h1>
       <h4>Фулл стек веб-разработчик</h4>
-      <input type="submit" value="Обо мне">
-      <input type="submit" value="Мои работы">
+      <input type="button" value="Обо мне">
+      <input type="button" value="Мои работы">
+          </div>  
+
  
  </div>    
  
- <div class="about_me">
-    <h2>Обо мне</h2>   
-    <img src="..." alt=""> 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, eum? <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, recusandae?</p>
+ 
+      <div class="about_me">
+         <h2>Обо мне</h2> <hr>
+         <img src="img/boy1.png" alt="...">
+    <ul>
     
-    <input type="submit" value="Скачать резюме">
-        
- </div>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, eum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, sint.  </li>
+     <li> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, eum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, sint. </li>
+      </ul>
+    
+    <input type="button" value="Скачать резюме">
+         
+     </div>
+     
  
  <div class="MySkills">
     <h2>Что я умею</h2>
@@ -74,111 +89,131 @@
  </div>
  
  <div class="Сases">
-   <h2>Кейсы</h2>
-   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, eveniet.</p>  
-   <img src="..." alt="">
-    <h3>CLIENT:</h3>
-    <p>Какая-тo компания</p>
-    <h3>WEBSITE:</h3>
-    <p>Какая-то ссылка</p>
-    <h3>Название проекта</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis laudantium inventore atque, repellat excepturi porro quasi incidunt, voluptate officiis nulla!</p>
-     
+   <h2>Кейсы</h2> <hr>    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, eveniet.</p>   
+   <img src="img/img1.png" alt="" >
+
+    <div class="first_block"> 
+    <div class="aaa"> <h3>CLIENT:</h3>
+    <p>Какая-тo компания</p> </div>
+
+    <div class="ccc"><h3>WEBSITE:</h3>
+    <p>Какая-то ссылка </p> </div>  <input type="button"
+    class="Knopa" value="Visit live site" ></input>  </div>  
+       
+        <div class="second_block"><h3> Название проекта</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis laudantium inventore atque, repellat excepturi porro quasi incidunt, voluptate officiis nulla! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt itaque accusamus libero delectus ipsam, voluptatum commodi repudiandae veritatis deserunt, quas.</p> </div>
+   
  </div>  
+ 
  
  <div class="Cost_calculation">
      <h2>Расчет стоимости</h2>
      
-     <h3>ТИП САЙТА</h3>
-     <input type="text" placeholder="Выберите пункт">
-     
+     <h3 class="Tipe">ТИП САЙТА</h3>
+     <select class="MySelect" name="type" id="TypeSite" >
+     <option value="1" selected disabled>Выберите пункт...</option>
+      </select>
       <h3>ДИЗАЙН</h3>
-     <input type="text" placeholder="Выберите пункт">
-     
+     <select class="MySelect" name="type" id="TypeSite" >
+       <option value="1" selected disabled>Выберите пункт...</option>
+      </select>
       <h3>АДАПТИВНОСТЬ</h3>
-     <input type="text" placeholder="Выберите пункт">
-     
+      <select class="MySelect" name="type" id="TypeSite" >
+       <option value="1" selected disabled>Выберите пункт...</option>
+      </select>
+      
      <div class="Cpoku"> 
-     <h4>Сроки</h4>
-     <P>0</P>
+     <h4>Сроки 0</h4>
+     
      </div>
      
       <div class="CmouMocmb"> 
-     <h4>Стоимость</h4>
-     <P>0</P>
+     <h4>Стоимость 0</h4>
+     
      </div>
-
+<div class="clear"></div>
  </div>
  
  <div class="Statistic">
     <h2>НЕМНОГО СТАТИСТИКИ</h2>
-    
-     <div class="smile">
-         <img src="" alt="...">
-         <h3>120</h3>
-         <P>СЧАСТЛИВЫХ КЛИЕНТОВ</P>
+    <hr>
+       <div class="statistic">
+
+     <div class="skills_item">
+         <img src="img/smile.png" alt="">
+         <P class="Number">120 </P><P> 
+         СЧАСТЛИВЫХ КЛИЕНТОВ</P>
            </div>
                
-             <div class="work">
-         <img src="" alt="...">
-         <h3>4,600</h3>
-         <P>ЧАСОВ РАБОТЫ</P>
+             <div class="skills_item">
+         <img src="img/brackets.png" alt="...">
+          <P class="Number">4,600 </P><P>  ЧАСОВ РАБОТЫ</P>
             </div>  
      
-             <div class="Checkbox">
-         <img src="" alt="...">
-         <h3>340</h3>
-         <P>ПРОЕКТОВ ЗАВЕРШЕНО</P>
+             <div class="skills_item">
+         <img src="img/ralka.png" alt="...">
+         <P class="Number">340</P><P> ПРОЕКТОВ ЗАВЕРШЕНО</P>
             </div>  
      
-             <div class="cup">
-         <img src="" alt="...">
-         <h3>23</h3>
-         <P>НАГРАД ПОЛУЧЕНО</P>
-         
+             <div class="skills_item">
+         <img src="img/ky6ok.png" alt="...">
+          <P class="Number">23 </P><P> НАГРАД ПОЛУЧЕНО</P>
+         </div>
      </div>
-     
+    </div>  
+    
+    
      <div class="reviews">
-         <h2>ОТЗЫВЫ</h2>
-         <img src="" alt="...">
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem necessitatibus quam modi quaerat. Aliquid, perferendis. <br>Кто-то, какая-то должность и какое-то место работы</p>
+         <h2>ОТЗЫВЫ</h2> <hr>
+         <img src="img/boy2.png" alt="...">
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem necessitatibus quam modi quaerat. Aliquid, perferendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, quidem! </p> <p class="who">  Кто-то, какая-то должность и какое-то место работы</p>
+    
          
      </div>
- </div>
+ 
  
  <div class="my_contacts">
-     <h2>МОИ КОНТАКТЫ</h2>
+     <h2>МОИ КОНТАКТЫ</h2> <hr>
      <p>Lorem ipsum dolor sit amet, consectetur.</p>
      
      <div class="contacts">
        
-       <div class="adress">
-        <img src="" alt="...">
+       <div class="cont">
+        <img src="img/gps.png" alt="...">
         <p>Какой-то адресс</p> 
          </div>
          
-          <div class="mail">
-             <img src="" alt="...">
+          <div class="cont">
+             <img src="img/letter.png" alt="...">
              <p>Какая-то почта</p>    
               
           </div>
           
-           <div class="number">
-             <img src="" alt="...">
+           <div class="cont">
+             <img src="img/call.png" alt="...">
              <p>Чей-то телефон</p>   
              
          </div>
       </div>
       <div class="letter">
-          <h2>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h2>
-          <input type="text" placeholder="Ваше имя">
-          <input type="text" placeholder="Ваша почта">
-          <textarea name="name1" id="10" cols="30" rows="10" > </textarea>
+          <h2 class="nucbMo">ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h2>
+          <div class="line"> 
+          <input class="Name" type="text" placeholder="Ваше имя">
+          <input class="Mail" type="text" placeholder="Ваша почта">
+           </div>
+          <textarea class="box" name="name1" id="10" cols="30" rows="10" > </textarea>
           
-          <input type="submit" value="Отправить">
-          
+          <input type="button" class="send"   value="Отправить">
+          </input>
       </div>
+      
+
  </div>
+ 
+ <div class="map">
+     <img src="img/map.png" alt="">
+ </div>
+  </main>
 </body>
 
 </html>                  
