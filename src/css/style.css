@@ -1,19 +1,83 @@
 .clear{
     clear: left;
 }
+
+.loading{
+    height: 100%;
+    width:100%;
+    background:  #da7c00;
+    position: fixed;
+    -webkit-animation: load 0.1s forwards;
+    -o-animation: load 0.1s forwards;
+    animation: load 0.1s forwards;
+    animation-delay: 5s;
+    z-index: 4;
+    float: left;
+}
+
+
+@keyframes load{
+    from{
+        opacity: 1;
+        margin: 0 auto;
+    }
+    to{
+        opacity: 1;
+        margin-top: -2000px;
+    }
+}
+
+.loading li{   
+    float: left;  
+   line-height: 60px;
+   color: #fff;
+   margin-right: 40px; 
+   font-size: 12px;
+   text-transform: uppercase;
+  -webkit-animation: tpship 2s forwards;
+  -o-animation:  tpship 2s forwards;
+    animation: tpship 2s forwards;
+    animation-delay: 5s;
+   opacity: 0;
+    
+}
+    
+.loading h2{
+    margin-top: 35%;
+    margin-left: 46.5%;
+    margin-right: auto;
+    font-size: 30px;
+}
 nav{
     width: 100%;
     height: 60px;
     background-color: #344051;
+    position: fixed;
+    z-index: 3;
 }
 .logo{
     color: #fff;
     line-height: 60px;
-    font-size: 16px;
+    font-size: 20px;
     float: left;
     padding-left: 220px;
+   -webkit-animation: comming 2s forwards;
+   -o-animation: comming 2s forwards;
+   animation: comming 2s forwards;  
+    animation-delay: 5s;
     
 }
+
+@keyframes comming{
+    from{
+        opacity: 0;
+    }
+     to{
+        opacity: 1;
+    }
+    
+}
+
 .menu{
     padding-left: 20%;
     float: left;
@@ -26,24 +90,117 @@ nav{
    margin-right: 40px; 
    font-size: 12px;
    text-transform: uppercase;
+-webkit-animation: topship 2s forwards;
+-o-animation:  topship 2s forwards;
+animation: topship 2s forwards;
+    animation-delay: 5s;
+opacity: 0;
+    
+}
+
+@keyframes topship{
+    from{
+        opacity: 0;
+        margin-top: -80px;
+        }
+    to{
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
+.menu li:nth-child(2){
+    animation-delay: 5.4s;
+}
+.menu li:nth-child(3){
+    animation-delay: 5.8s;
+}
+.menu li:nth-child(4){
+    animation-delay: 6.2s;
+}
+.menu li:nth-child(5){
+    animation-delay: 6.6s;
+}
+.menu li:nth-child(6){
+    animation-delay: 7s;
+}
+.menu li a{
+    transition: all 0.1s;
+    color: white;
+    transform: scale(1); 
+    display: block;
+    
+}
+.menu li a:visited{
+    color: white;
+}
+
+.menu li a:hover{
+    color: #e88604;
+}
+
+.menu li a:active{
+    transform: scale(1.1);
+}
+
+ main{
+   width: 100%;
+   height:100%;
 }
 .main{
    width: 100%;
-   height: calc(100% - 60px);
+   height:100%;
     background: url("../img/boy.png") 90% 100%/auto 85% no-repeat, url("../img/fon.png") center/cover no-repeat;
     
 }
 .title{
     float: left;
- color: #2c384a;
+ color: #344051;
     margin:220px 0px 0px 200px;
 text-align: center;
+    opacity: 0;
+    -webkit-animation: titlee 1s ease forwards;
+    -o-animation:titlee 1s ease forwards;
+    animation:titlee 1s ease forwards;
+    -webkit-animation-delay:   7.2s ;
+    -o-animation-delay:   7.2s ;
+    animation-delay:   7.2s;
+    
+    
+}
+
+@keyframes titlee{
+    from{
+        opacity: 0;
+        margin-left: -400px;
+        }
+    to{
+        opacity: 1;
+        margin-left: 200px;
+    }
+}
+
+.title input{
+    transition: all 0.2s;
+    transform: scale(1);
+    display: inline-block;
+}
+
+.title input:hover{
+   background: #344051;
+    color: white;
+}
+
+.title input:active{
+  transform: scale(1.1);
 }
 
 .title h1{
     font-size: 60px;
     font-weight: 600;
 }
+
+
 .title h4{
     margin-top: 20px;
     font-size: 22px;
@@ -52,9 +209,9 @@ text-align: center;
 
 .title input{
     text-align: center;
-    color: #6d7682;
+    color: #344051;
     height: 40px;
-    border: 2px solid #6d7682;
+    border: 2px solid #344051;
     border-radius: 5px;
     background: none;
     font-size: 12px;
@@ -66,10 +223,45 @@ text-align: center;
     width: 100%;
     margin-top: 103px;
     text-align: center;
-background:  url("../img/line.png") 50% 30px no-repeat ,url("../img/boy1.png") 50% 74px no-repeat,url("../img/fon1.png") center/cover no-repeat ;
-  
+transition: all 2s;
+    transform: scale(1);
 
+}
 
+.about_me hr{
+    margin-top: 15px;
+    height: 3px;
+   border:none;
+    background-color: #da7c00;
+    width: 60px;
+    margin: 20px auto; 
+    border-radius: 2px;
+    opacity: 1;
+    transition: all 0.2s;
+}
+
+.about_me hr:hover{
+    display: block;
+    opacity: 0;  
+}
+
+.about_me input:active{
+    transform: scale(1.1);
+}
+
+.about_me input:hover{
+   background:  #6f707e;
+    color: white;
+}
+
+.about_me img{
+    transition: all 2s;
+}
+.about_me img:hover{
+    display: block; 
+    transform: rotate(360deg);
+    margin: 0 auto;
+   
 }
 .about_me h2{
     font-size: 20px;
@@ -80,7 +272,7 @@ background:  url("../img/line.png") 50% 30px no-repeat ,url("../img/boy1.png") 5
    
 }
 .about_me ul{
-    margin: 280px 300px 0px 300px;
+    margin: 10px 300px 0px 300px;
 
     text-align: center;
     border-left: 579px;
@@ -95,10 +287,10 @@ background:  url("../img/line.png") 50% 30px no-repeat ,url("../img/boy1.png") 5
     text-align: center;
     margin-top: 35px;
     border: 2px solid #6f707e;
-    padding: 7px 9px 7px 36px;
+    padding: 7px 9px;
     border-radius: 5px;
     background: none;
-    background: url("../img/Ukonka.png") 10% no-repeat;
+   /* background: url("../img/Ukonka.png") 10% no-repeat;*/
     color:#6f707e;
     font-weight: 600;
     font-size: 16;
@@ -110,7 +302,7 @@ background:  url("../img/line.png") 50% 30px no-repeat ,url("../img/boy1.png") 5
     width: 100%;
     height: 523px;
     text-align: center;
-    background:url(../img/line1.png) 50% 130px  no-repeat, url(../img/fon2.png) center/cover no-repeat  ;
+    background:url(../img/line1.png) 50% 130px  no-repeat, url(../img/fon2.png) center/cover fixed no-repeat  ;
 }
 .MySkills h2{
     padding-top: 101px;
@@ -208,11 +400,20 @@ background:  url("../img/line.png") 50% 30px no-repeat ,url("../img/boy1.png") 5
 }
 
 .Сases hr{
+    margin-top: 15px;
     height: 3px;
    border:none;
-    background-color: #d17700;
+    background-color: #da7c00;
     width: 60px;
     margin: 20px auto; 
+    border-radius: 2px;
+    opacity: 1;
+    transition: all 0.2s;
+}
+
+.Сases hr:hover{
+    display: block;
+    opacity: 0;  
 }
 
 .Сases >p{
@@ -243,9 +444,22 @@ background:  url("../img/line.png") 50% 30px no-repeat ,url("../img/boy1.png") 5
     margin-right: 70px;
     display: inline;
     float: left;
+    transition: all 0.2s;
+    transform: scale(1);
 }
 
-.Knopka{
+.first_block input:hover{
+    background: #4b8a85;
+    color:#d6d9d9;
+    border-color:  #4b8a85;
+}
+
+.first_block input:active{
+    transform: scale(1.1);
+    
+}
+.Knopa{
+    
     color: aliceblue;
     font-size: 20px;
     border: 2px solid #63b5ae;
@@ -254,11 +468,9 @@ background:  url("../img/line.png") 50% 30px no-repeat ,url("../img/boy1.png") 5
     font-weight: 700;
     width: 160px;
     border-radius: 5px;
-    
-   
     margin-top: 15px;
     margin-left: auto;
-
+ 
 }
 
 .second_block  {
@@ -284,6 +496,12 @@ background:  url("../img/line.png") 50% 30px no-repeat ,url("../img/boy1.png") 5
 .Cost_calculation{
     height: 900px;
     width: 100%;
+    transition: all 0.2s;
+}
+
+.Cost_calculation select:hover{
+    background: #8a8a8a;
+    color: #f7f7f7;
 }
 .Cost_calculation h2{
     padding-top: 145px;
@@ -346,7 +564,7 @@ background:  url("../img/line.png") 50% 30px no-repeat ,url("../img/boy1.png") 5
 .Statistic{
   height: 499px;
     width: 100%;
-    background: url(../img/fon3.png) center/cover no-repeat;
+    background: url(../img/fon3.png) center/cover fixed no-repeat;
 }
 .statistic{
   width: 1000px;  
@@ -364,9 +582,17 @@ background:  url("../img/line.png") 50% 30px no-repeat ,url("../img/boy1.png") 5
     margin-top: 15px;
     height: 3px;
    border:none;
-    background-color: #d17700;
+    background-color: #da7c00;
     width: 60px;
     margin: 20px auto; 
+    border-radius: 2px;
+    opacity: 1;
+    transition: all 0.2s;
+}
+
+.Statistic hr:hover{
+    display: block;
+    opacity: 0;  
 }
 
 .skills_item{
@@ -402,12 +628,21 @@ background:  url("../img/line.png") 50% 30px no-repeat ,url("../img/boy1.png") 5
 }   
 
 .reviews hr{
+ 
     margin-top: 15px;
     height: 3px;
    border:none;
-    background-color: #d17700;
+    background-color: #da7c00;
     width: 60px;
     margin: 20px auto; 
+    border-radius: 2px;
+    opacity: 1;
+    transition: all 0.2s;
+}
+
+.reviews hr:hover{
+    display: block;
+    opacity: 0;  
 }
 
 .reviews img{
@@ -417,6 +652,12 @@ background:  url("../img/line.png") 50% 30px no-repeat ,url("../img/boy1.png") 5
     width: 100px;
     margin-left: auto;
     margin-right: auto;
+transform: rotate(0deg);
+    backface-visibility: visible;
+}
+
+.reviews img:hover{
+    
 }
 
 .reviews p{
@@ -439,13 +680,22 @@ padding-top: 27px;
  
 }
 .my_contacts hr{
+ 
+ 
     margin-top: 15px;
     height: 3px;
    border:none;
-    background-color: #d17700;
+    background-color: #da7c00;
     width: 60px;
     margin: 20px auto; 
-    margin-bottom: 45px;
+    border-radius: 2px;
+    opacity: 1;
+    transition: all 0.2s;
+}
+
+.my_contacts hr:hover{
+    display: block;
+    opacity: 0;  
 }
 
  .my_contacts h2{
@@ -498,9 +748,18 @@ padding-top: 27px;
     width:350px;
 }
 
+.Name:hover{
+    background: #8a8a8a;
+    place-content: white;
+}
 .Mail{
     height: 35px;
     width:350px; 
+}
+
+.Mail:hover{
+    background: #8a8a8a;
+    place-content: white;
 }
 
 .box{
@@ -510,6 +769,11 @@ padding-top: 27px;
      margin-left: auto;
     margin-right: auto;
     margin-bottom: 18px;
+}
+
+.box:hover{
+    background: #8a8a8a;
+    place-content: white;
 }
 
 .send{
@@ -523,6 +787,17 @@ padding-top: 27px;
     border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
+    transition: all 0.2s;
+    transform: scale(1);
+}
+
+.send:hover{
+    background: white;
+    color:#354051;
+}
+
+.send:active{
+transform: scale(1.1);
 }
 
 .nucbMo{
@@ -533,3 +808,4 @@ padding-top: 27px;
     height: 250px;
     width: 100%;
 }
+
