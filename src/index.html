@@ -7,20 +7,24 @@
     <meta name="author" content="Yaroslav">
     <meta name="keywords" content="Сайт визитка разработчика">
     <meta name="robots" content="all">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ярослав Терентьев - веб-разработчик</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     </head>
 
 <body>
  <div class="loading">
    <h2>Loading...</h2>
- 
     </div>
   <header>
       <nav>
-          <div class="logo">Андрей Браун</div> 
-          <div class="menu"> 
+         <div class="container"> 
+         <div class="row">
+             <div class="col-2">  <div class="logo">Андрей Браун</div>              </div>
+
+                 <div class="col-6 offset-4">     <div class="menu"> 
           <ul>
               <li><a href="#">Обо мне</a></li>
               <li><a href="#">Услуги </a></li> 
@@ -31,6 +35,11 @@
              
           </ul>
           </div>
+          </div>
+         </div>
+         </div>
+        
+     
       </nav>
   </header>
   <main>
@@ -98,7 +107,7 @@
 
     <div class="ccc"><h3>WEBSITE:</h3>
     <p>Какая-то ссылка </p> </div>  <input type="button"
-    class="Knopa" value="Visit live site" ></input>  </div>  
+    class="Knopa" value="Visit live site" >    </div>  
        
         <div class="second_block"><h3> Название проекта</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis laudantium inventore atque, repellat excepturi porro quasi incidunt, voluptate officiis nulla! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt itaque accusamus libero delectus ipsam, voluptatum commodi repudiandae veritatis deserunt, quas.</p> </div>
@@ -204,7 +213,7 @@
           <textarea class="box" name="name1" id="10" cols="30" rows="10" > </textarea>
           
           <input type="button" class="send"   value="Отправить">
-          </input>
+           
       </div>
       
 

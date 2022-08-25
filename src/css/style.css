@@ -10,11 +10,9 @@
     -webkit-animation: load 0.1s forwards;
     -o-animation: load 0.1s forwards;
     animation: load 0.1s forwards;
-    animation-delay: 5s;
+   /* animation-delay: 4.5s;*/
     z-index: 4;
-    float: left;
 }
-
 
 @keyframes load{
     from{
@@ -27,21 +25,6 @@
     }
 }
 
-.loading li{   
-    float: left;  
-   line-height: 60px;
-   color: #fff;
-   margin-right: 40px; 
-   font-size: 12px;
-   text-transform: uppercase;
-  -webkit-animation: tpship 2s forwards;
-  -o-animation:  tpship 2s forwards;
-    animation: tpship 2s forwards;
-    animation-delay: 5s;
-   opacity: 0;
-    
-}
-    
 .loading h2{
     margin-top: 35%;
     margin-left: 46.5%;
@@ -60,11 +43,9 @@ nav{
     line-height: 60px;
     font-size: 20px;
     float: left;
-    padding-left: 220px;
    -webkit-animation: comming 2s forwards;
    -o-animation: comming 2s forwards;
    animation: comming 2s forwards;  
-    animation-delay: 5s;
     
 }
 
@@ -79,7 +60,6 @@ nav{
 }
 
 .menu{
-    padding-left: 20%;
     float: left;
 }
 
@@ -93,7 +73,6 @@ nav{
 -webkit-animation: topship 2s forwards;
 -o-animation:  topship 2s forwards;
 animation: topship 2s forwards;
-    animation-delay: 5s;
 opacity: 0;
     
 }
@@ -110,25 +89,26 @@ opacity: 0;
 }
 
 .menu li:nth-child(2){
-    animation-delay: 5.4s;
+    animation-delay: 0.4s;
 }
 .menu li:nth-child(3){
-    animation-delay: 5.8s;
+    animation-delay: 0.8s;
 }
 .menu li:nth-child(4){
-    animation-delay: 6.2s;
+    animation-delay: 1.2s;
 }
 .menu li:nth-child(5){
-    animation-delay: 6.6s;
+    animation-delay: 1.6s;
 }
 .menu li:nth-child(6){
-    animation-delay: 7s;
+    animation-delay: 2s;
 }
 .menu li a{
     transition: all 0.1s;
     color: white;
     transform: scale(1); 
     display: block;
+    text-decoration: none;
     
 }
 .menu li a:visited{
@@ -162,9 +142,9 @@ text-align: center;
     -webkit-animation: titlee 1s ease forwards;
     -o-animation:titlee 1s ease forwards;
     animation:titlee 1s ease forwards;
-    -webkit-animation-delay:   7.2s ;
-    -o-animation-delay:   7.2s ;
-    animation-delay:   7.2s;
+    -webkit-animation-delay:   2.2s ;
+    -o-animation-delay:   2.2s ;
+    animation-delay:   2.2s;
     
     
 }
@@ -425,10 +405,9 @@ transition: all 2s;
 .Сases img{
    float: left;
     width: 1100px;
-    margin-right: 100%;
-    margin-left: 0;   
+    margin-left: 5%;   
+    margin-right: auto; 
     margin-top: 39px;
-    margin-bottom: 0px;
 
     }
 
